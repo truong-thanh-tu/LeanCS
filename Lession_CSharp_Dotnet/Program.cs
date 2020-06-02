@@ -10,7 +10,9 @@ namespace Lession_CSharp_Dotnet
     {
         static void Main(string[] args)
         {
-            Book.Session_1.Run.Test();
+            // Book.Session_1.Run.Test();
+            Book.Session_3.Run.Test();
+            Console.ReadKey();
         }
     }
 }

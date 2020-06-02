@@ -5,3 +5,10 @@ D:\C\leanrCSharp\Lession_CSharp_Dotnet\bin\Debug\Lession_CSharp_Dotnet.exe
 D:\C\leanrCSharp\Lession_CSharp_Dotnet\bin\Debug\Lession_CSharp_Dotnet.pdb
 D:\C\leanrCSharp\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.exe
 D:\C\leanrCSharp\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.pdb
+D:\C\LeanCS\Lession_CSharp_Dotnet\bin\Debug\Lession_CSharp_Dotnet.exe.config
+D:\C\LeanCS\Lession_CSharp_Dotnet\bin\Debug\Lession_CSharp_Dotnet.exe
+D:\C\LeanCS\Lession_CSharp_Dotnet\bin\Debug\Lession_CSharp_Dotnet.pdb
+D:\C\LeanCS\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.csprojAssemblyReference.cache
+D:\C\LeanCS\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.csproj.CoreCompileInputs.cache
+D:\C\LeanCS\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.exe
+D:\C\LeanCS\Lession_CSharp_Dotnet\obj\Debug\Lession_CSharp_Dotnet.pdb

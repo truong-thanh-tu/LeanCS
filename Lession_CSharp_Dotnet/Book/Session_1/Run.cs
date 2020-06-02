@@ -10,7 +10,10 @@ namespace Lession_CSharp_Dotnet.Book.Session_1
     {
        public static void Test()
         {
-            bai1();
+        //    bai1();
+        //    bai2();
+        //    bai3();
+        //    bai4();
             Console.ReadKey();
         }
         static void bai1()
