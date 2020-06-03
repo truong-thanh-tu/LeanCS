@@ -10,9 +10,12 @@ namespace Lession_CSharp_Dotnet
     {
         static void Main(string[] args)
         {
+            #region Book
             // Book.Session_1.Run.Test();
-            Book.Session_3.Run.Test();
+            // Book.Session_3.Run.Test();
+            Book.Session_4.Run.Test();
             Console.ReadKey();
+            #endregion
         }
     }
 }

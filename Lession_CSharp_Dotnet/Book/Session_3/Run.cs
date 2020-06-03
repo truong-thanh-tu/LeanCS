@@ -22,14 +22,18 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
             bai_10();
             Console.ReadKey();
         }
-        // Tinh dien tich
+        /// <summary>
+        /// Tinh dien tich
+        /// </summary>
         static void bai_1()
         {
             int side = 10;  int height = 5;
             double area = 0.5*side*height;
             Console.WriteLine("Area  = {0}" , area);
         }
-        // Dung checkup de kiem tra ket qua co vuoc qua gioi han hay khong
+        /// <summary>
+        ///  Dung checkup de kiem tra ket qua co vuoc qua gioi han hay khong
+        /// </summary>
         static void bai_2()
         {
             byte numOne = 255;
@@ -47,7 +51,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
                 Console.WriteLine(ex);
             }
         }
-        // Dung uncheckup de bo qua cac truong hop ngooai len
+        /// <summary>
+        /// Dung uncheckup de bo qua cac truong hop ngooai len
+        /// </summary>
         static void bai_3()
         {
             byte numOne = 255;
@@ -62,7 +68,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
                 Console.WriteLine("Resultz = "+result);
             } catch (OverflowException ex) { Console.WriteLine(ex); }
         }
-        //  Thuc hien khai bao va tinh toan roi hien thi ra mang hinh
+        /// <summary>
+        /// Thuc hien khai bao va tinh toan roi hien thi ra mang hinh
+        /// </summary>
         static void bai_4()
         {
             int valueOne = 10;
@@ -78,7 +86,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
             Console.WriteLine("Division " +div);
             Console.WriteLine("Remainder " +modu);
         }
-        // Thuc hien toan tu so sanh
+        /// <summary>
+        ///  Thuc hien toan tu so sanh 
+        /// </summary>
         static void bai_5()
         {
             int leftVal = 50;
@@ -90,7 +100,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
             Console .WriteLine ("Greater or Equal: " + (leftVal >= rightVal) ) ;
             Console .WriteLine ("Lesser or Equal: " + (leftVal <= rightVal) ) ;
         }
-        // Dung if else de kiem tra dieu kien 
+        /// <summary>
+        ///  Dung if else de kiem tra dieu kien 
+        /// </summary>
         static void bai_6()
         {
             int num = 0;
@@ -102,7 +114,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
                 Console.WriteLine("The number does not exist between 1 and 10");
             }
         }
-        // Dung if else de kiem tra dieu kien 
+        /// <summary>
+        ///  Dung if else de kiem tra dieu kien 
+        /// </summary>
         static void bai_7()
         {
             int num = -5;
@@ -114,7 +128,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
                 Console.WriteLine("The number exists between 1 and 10");
             }
          }
-        // Dung toan tu 
+        /// <summary>
+        ///  Dung toan tu 
+        /// </summary>
         static void bai_8()
         {
             int valueOne = 5;
@@ -130,7 +146,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
             Console.WriteLine("Valuel /= 2 = " +valueOne);
             Console.WriteLine("Valuel == Value2: {0} ", (valueOne == valueTwo) ) ;
         }
-        // Ternary or conditional
+        /// <summary>
+        ///  Ternary or conditional
+        /// </summary>
         static void bai_9()
         {
             int numOne = 5;
@@ -151,7 +169,9 @@ namespace Lession_CSharp_Dotnet.Book.Session_3
 
             }
         }
-        // Dung ham 
+        /// <summary>
+        ///  Dung ham 
+        /// </summary>
         static void bai_10()
         {
             int num = 8;
