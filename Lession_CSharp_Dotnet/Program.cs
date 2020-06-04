@@ -13,7 +13,11 @@ namespace Lession_CSharp_Dotnet
             #region Book
             // Book.Session_1.Run.Test();
             // Book.Session_3.Run.Test();
-            Book.Session_4.Run.Test();
+            // Book.Session_4.Run.Test();
+          //  Console.ReadKey();
+            #endregion
+            #region CodeLean
+            CodeLean.AP_03.Run.Test();
             Console.ReadKey();
             #endregion
         }

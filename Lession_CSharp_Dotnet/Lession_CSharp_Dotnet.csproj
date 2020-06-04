@@ -47,14 +47,13 @@
     <Compile Include="Book\Session_2\Run.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
     <Compile Include="Book\Session_4\Run.cs" />
+    <Compile Include="CodeLean\AP_03\Run.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CodeLean\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
