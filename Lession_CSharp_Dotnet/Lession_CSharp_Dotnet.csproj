@@ -47,9 +47,16 @@
     <Compile Include="Book\Session_2\Run.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
     <Compile Include="Book\Session_4\Run.cs" />
+    <Compile Include="Book\Session_5\Run.cs" />
+    <Compile Include="Book\Session_6\Run.cs" />
+    <Compile Include="Book\Session_8\Run.cs" />
     <Compile Include="CodeLean\AP_03\Run.cs" />
+    <Compile Include="CodeLean\AP_04\Run.cs" />
+    <Compile Include="CodeLean\AP_05\Run.cs" />
+    <Compile Include="CodeLean\AP_06\Run.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reseach\Object\Class.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -14,11 +14,20 @@ namespace Lession_CSharp_Dotnet
             // Book.Session_1.Run.Test();
             // Book.Session_3.Run.Test();
             // Book.Session_4.Run.Test();
-          //  Console.ReadKey();
+            /// Book.Session_5.Run.Test();
+            Book.Session_6.Run.Test();
+            Console.ReadKey();
             #endregion
             #region CodeLean
-            CodeLean.AP_03.Run.Test();
-            Console.ReadKey();
+            // CodeLean.AP_03.Run.Test();
+            // CodeLean.AP_04.Run.Test();
+            // CodeLean.AP_05.Run.Test();
+            // CodeLean.AP_06.Run.Test();
+            // Console.ReadKey();
+            #endregion
+            #region
+            Reseach.Object.Class.Run();
+            Console.ReadKey(); 
             #endregion
         }
     }
