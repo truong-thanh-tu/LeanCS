@@ -50,6 +50,7 @@
     <Compile Include="Book\Session_5\Run.cs" />
     <Compile Include="Book\Session_6\Run.cs" />
     <Compile Include="Book\Session_8\Run.cs" />
+    <Compile Include="Book\Session_9\Run.cs" />
     <Compile Include="CodeLean\AP_03\Run.cs" />
     <Compile Include="CodeLean\AP_04\Run.cs" />
     <Compile Include="CodeLean\AP_05\Run.cs" />

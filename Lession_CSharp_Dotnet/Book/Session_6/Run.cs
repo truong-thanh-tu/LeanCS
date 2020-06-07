@@ -8,7 +8,7 @@ namespace Lession_CSharp_Dotnet.Book.Session_6
 {
      public static class Run
     {
-
+        // Hàm gọi hàm 
         public static void Test()
         {
             //   Car.Runs();
@@ -19,7 +19,12 @@ namespace Lession_CSharp_Dotnet.Book.Session_6
             //   ObjectMyCar.display();
             //   Program.display();
             //   ProgramSecond.display();
-            ProgramThree.display();
+            //   ProgramThree.display();
+            //   Students.displayScreen();
+            //   Book.Display();
+            //   MyStudent.Display();
+            //   OptionalParameterExample.Display();
+
         }
 
         // Class Car
@@ -89,6 +94,104 @@ namespace Lession_CSharp_Dotnet.Book.Session_6
             }
         }
 
+        // Class Students
+        public class Students
+        {
+            string _student = "James Anderson";
+            int _studAge = 27;
+
+            void Display()
+            {
+                Console.WriteLine("Student Name: "+_student);
+                Console.WriteLine("Student Age : "+_studAge);
+            }
+
+            void Input()
+            {
+                Console.WriteLine("Enter name student: ");
+                _student = Console.ReadLine();
+                Console.WriteLine("Enter age student: ");
+                string age = Console.ReadLine();
+                _studAge = Convert.ToInt32(age);
+            }
+            public static void displayScreen()
+            {
+                Students students = new Students();
+                students.Input();
+                students.Display();
+            }
+        }
+
+        // Class MyStudent
+        public class MyStudent
+        {
+          public void PrintName(String firstName, String lastName)
+            {
+                Console.WriteLine("First Name = {0}, Last Name = {1}", firstName, lastName);
+            }
+
+             public static void Display()
+            {
+                MyStudent myStudent = new MyStudent();
+                myStudent.PrintName( firstName : "Henry", lastName: "Parker");
+                myStudent.PrintName(lastName: "Parker", firstName: "Henry");
+                myStudent.PrintName("Henry", lastName: "Parker");
+                myStudent.PrintName("Parker", "Henry");
+               // myStudent.PrintName(lastName : "Henry", "Perker");
+            }
+        }
+       
+        //Class Book 
+        public class Book
+        {
+            string _bookName;
+            int _price;
+
+            public string Print()
+            {
+                return _bookName;
+            }
+
+            public int PrintPrice()
+            {
+                return _price;
+            }
+            public void Input (string bkname)
+            {
+                _bookName = bkname;
+            }
+
+            public void InputPrice ( int price)
+            {
+                _price = price;
+            }
+           public static void Display()
+            {
+                Book objBook = new Book();
+                objBook.Input("C# -The complete reference");
+                objBook.InputPrice(25000);
+                Console.WriteLine(objBook.Print());
+                Console.WriteLine(objBook.PrintPrice());
+            }
+
+        }
+
+        //Class OptionalParameterExample
+        class OptionalParameterExample
+        {
+            public void printMessage(string message = "Hello user!")
+            {
+                Console.WriteLine("{0}",message);
+            }
+
+            public static void Display()
+            {
+                OptionalParameterExample OPE = new OptionalParameterExample();
+                OPE.printMessage();
+                OPE.printMessage("Welcome User !");
+            }
+        }
+
         // Object 
         public class ObjectCar
         {
@@ -107,7 +210,6 @@ namespace Lession_CSharp_Dotnet.Book.Session_6
         }
 
         // Object myCar
-
         public class ObjectMyCar
         {
             private string model; // field

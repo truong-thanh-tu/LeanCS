@@ -14,8 +14,9 @@ namespace Lession_CSharp_Dotnet
             // Book.Session_1.Run.Test();
             // Book.Session_3.Run.Test();
             // Book.Session_4.Run.Test();
-            /// Book.Session_5.Run.Test();
-            Book.Session_6.Run.Test();
+            // Book.Session_5.Run.Test();
+            // Book.Session_6.Run.Test();
+            Book.Session_9.Run.Test();
             Console.ReadKey();
             #endregion
             #region CodeLean
