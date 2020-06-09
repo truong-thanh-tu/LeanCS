@@ -254,5 +254,11 @@ namespace Lession_CSharp_Dotnet.Reseach.Object
             
             
         }
+
+        //Function tra ve hai gia tri
+        public class Functions
+        {
+          
+        }
     }
 }
