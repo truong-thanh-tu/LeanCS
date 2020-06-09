@@ -31,7 +31,8 @@ namespace Lession_CSharp_Dotnet
               Console.ReadKey(); */
             #endregion
             #region LAP
-            LAB.LAB_5.Run.Test();
+            //  LAB.LAB_5.Run.Test();
+            LAB.LAB_6.Run.Test();
             #endregion
         }
     }
