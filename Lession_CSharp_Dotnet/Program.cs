@@ -16,8 +16,8 @@ namespace Lession_CSharp_Dotnet
             // Book.Session_4.Run.Test();
             // Book.Session_5.Run.Test();
             // Book.Session_6.Run.Test();
-            Book.Session_9.Run.Test();
-            Console.ReadKey();
+            // Book.Session_9.Run.Test();
+            // Console.ReadKey();
             #endregion
             #region CodeLean
             // CodeLean.AP_03.Run.Test();
@@ -26,9 +26,12 @@ namespace Lession_CSharp_Dotnet
             // CodeLean.AP_06.Run.Test();
             // Console.ReadKey();
             #endregion
-            #region
-            Reseach.Object.Class.Run();
-            Console.ReadKey(); 
+            #region Reseach
+            /*  Reseach.Object.Class.Run();
+              Console.ReadKey(); */
+            #endregion
+            #region LAP
+            LAB.LAB_5.Run.Test();
             #endregion
         }
     }
