@@ -43,18 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeLean\AP_16\Class1.cs" />
+    <Compile Include="CodeLean\AP_16\Run.cs" />
     <Compile Include="Book\Session_1\Run.cs" />
     <Compile Include="Book\Session_2\Run.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
     <Compile Include="Book\Session_4\Run.cs" />
     <Compile Include="Book\Session_5\Run.cs" />
     <Compile Include="Book\Session_6\Run.cs" />
+    <Compile Include="Book\Session_8\Animal.cs" />
+    <Compile Include="Book\Session_8\Display.cs" />
+    <Compile Include="Book\Session_8\Dog.cs" />
+    <Compile Include="Book\Session_8\People.cs" />
     <Compile Include="Book\Session_8\Run.cs" />
+    <Compile Include="Book\Session_9\Book.cs" />
+    <Compile Include="Book\Session_9\doMain.cs" />
+    <Compile Include="Book\Session_9\Product.cs" />
     <Compile Include="Book\Session_9\Run.cs" />
+    <Compile Include="Book\Session_9\Student.cs" />
     <Compile Include="CodeLean\AP_03\Run.cs" />
     <Compile Include="CodeLean\AP_04\Run.cs" />
     <Compile Include="CodeLean\AP_05\Run.cs" />
     <Compile Include="CodeLean\AP_06\Run.cs" />
+    <Compile Include="CodeLean\AP_17\Class1.cs" />
+    <Compile Include="CodeLean\AP_17\Class2.cs" />
+    <Compile Include="CodeLean\AP_17\Class3.cs" />
+    <Compile Include="CodeLean\AP_17\EvenProgram.cs" />
+    <Compile Include="CodeLean\AP_17\Run.cs" />
     <Compile Include="LAB\LAB_5\Run.cs" />
     <Compile Include="LAB\LAB_6\Atom.cs" />
     <Compile Include="LAB\LAB_6\Button.cs" />
@@ -64,11 +79,45 @@
     <Compile Include="LAB\LAB_6\Window.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reseach\hinh\Hinh.cs" />
+    <Compile Include="Reseach\hinh\HinhVuongcs.cs" />
+    <Compile Include="Reseach\HomeWork\Person.cs" />
+    <Compile Include="Reseach\HomeWork\Run.cs" />
+    <Compile Include="Reseach\HomeWork\Student.cs" />
+    <Compile Include="Reseach\HomeWork\Teacher.cs" />
+    <Compile Include="Reseach\Laptrinhhuongdoituong\Class1.cs" />
+    <Compile Include="Reseach\Laptrinhhuongdoituong\Class2.cs" />
+    <Compile Include="Reseach\Laptrinhhuongdoituong\Class3.cs" />
+    <Compile Include="Reseach\Laptrinhhuongdoituong\Class4.cs" />
+    <Compile Include="Reseach\Laptrinhhuongdoituong\Run.cs" />
+    <Compile Include="Reseach\New\BaseClass.cs" />
+    <Compile Include="Reseach\New\Run.cs" />
     <Compile Include="Reseach\Object\Class.cs" />
+    <Compile Include="Reseach\OOP\Animal-plus.cs" />
+    <Compile Include="Reseach\OOP\Animal.cs" />
+    <Compile Include="Reseach\OOP\Car.cs" />
+    <Compile Include="Reseach\OOP\Dog.cs" />
+    <Compile Include="Reseach\OOP\MyClasscs.cs" />
+    <Compile Include="Reseach\OOP\Personcs.cs" />
+    <Compile Include="Reseach\OOP\Pig-plus.cs" />
+    <Compile Include="Reseach\OOP\Pig.cs" />
+    <Compile Include="Reseach\OOP\Run.cs" />
+    <Compile Include="Reseach\OOP\Vihicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Reseach\New\DerivedClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeLean\AP_17\Messige.txt">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="Reseach\Laptrinhhuongdoituong\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Book\Session_10\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
